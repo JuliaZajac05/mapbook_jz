@@ -63,28 +63,28 @@ label_szczegoly_obiektu= Label(ramka_szczegoly_obiektow, text="Szczegóły użyt
 label_szczegoly_obiektu.grid(row=0, column=0, sticky=W)
 
 label_name_szczegoly_obiektu= Label(ramka_szczegoly_obiektow, text="Imię: ")
-label_name_szczegoly_obiektu.grid(row=1, column=1)
+label_name_szczegoly_obiektu.grid(row=1, column=0)
 
 label_name_szczegoly_obiektu_wartosc= Label(ramka_szczegoly_obiektow, text="....: ")
-label_name_szczegoly_obiektu_wartosc.grid(row=0, column=2)
+label_name_szczegoly_obiektu_wartosc.grid(row=1, column=1)
 
-label_surname_szczegoly_obiektu_wartosc= Label(ramka_szczegoly_obiektow, text="Nazwisko: ")
+label_surname_szczegoly_obiektu= Label(ramka_szczegoly_obiektow, text="Nazwisko: ")
+label_surname_szczegoly_obiektu.grid(row=1, column=2)
+
+label_surname_szczegoly_obiektu_wartosc= Label(ramka_szczegoly_obiektow, text="....: ")
 label_surname_szczegoly_obiektu_wartosc.grid(row=1, column=3)
 
-label_surname= Label(ramka_szczegoly_obiektow, text="....: ")
-label_surname_szczegoly_obiektu_wartosc.grid(row=0, column=1)
+label_posts_szczegoly_obiektu= Label(ramka_szczegoly_obiektow, text="Posty: ")
+label_posts_szczegoly_obiektu.grid(row=1, column=4)
 
-label_posts_szczegoly_obiektu_wartosc= Label(ramka_szczegoly_obiektow, text="Posty: ")
-label_posts_szczegoly_obiektu_wartosc.grid(row=0, column=4)
+label_posts_szczegoly_obiektu_wartosc= Label(ramka_szczegoly_obiektow, text="....: ")
+label_posts_szczegoly_obiektu_wartosc.grid(row=1, column=5)
 
-label_surname= Label(ramka_szczegoly_obiektow, text="....: ")
-label_surname_szczegoly_obiektu_wartosc.grid(row=0, column=5)
+label_location_szczegoly_obiektu= Label(ramka_szczegoly_obiektow, text="Miejscowość: ")
+label_location_szczegoly_obiektu.grid(row=1, column=6)
 
-label_location_szczegoly_obiektu_wartosc= Label(ramka_szczegoly_obiektow, text="Miejscowość: ")
-label_location_szczegoly_obiektu_wartosc.grid(row=0, column=6)
-
-label_surname= Label(ramka_szczegoly_obiektow, text="....: ")
-label_surname_szczegoly_obiektu_wartosc.grid(row=0, column=7)
+label_location_szczegoly_obiektu_wartosc= Label(ramka_szczegoly_obiektow, text="....: ")
+label_location_szczegoly_obiektu_wartosc.grid(row=1, column=7)
 
 
 #RAMKA MAPA
